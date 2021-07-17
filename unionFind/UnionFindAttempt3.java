@@ -1,4 +1,4 @@
-package prac.unionFind;
+package unionFind;
 
 public class UnionFindAttempt3 {
 

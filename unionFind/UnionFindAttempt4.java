@@ -1,13 +1,13 @@
-// with path compression
-package prac.unionFind;
+package unionFind;
 
-public class UnionFindAttempt4 {
+public class UnionFindFinalAttempt_PathCompression {
 
 	private static int[] connections = null;
 	private static int[] sizeOfTree = null;
 	
 	public static void main(String[] args) {
-		UnionFindAttempt4 uf = new UnionFindAttempt4(12);
+		UnionFindFinalAttempt_PathCompression uf = new UnionFindFinalAttempt_PathCompression(12);
+		
 		uf.union(4,3);
 		uf.union(3,8);
 		uf.union(6,5);
