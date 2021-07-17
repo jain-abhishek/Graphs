@@ -2,8 +2,8 @@ package unionFind;
 
 public class UnionFindFinalAttempt_PathCompression {
 
-	private static int[] connections = null;
-	private static int[] sizeOfTree = null;
+	private int[] connections = null;
+	private int[] sizeOfTree = null;
 	
 	public static void main(String[] args) {
 		UnionFindFinalAttempt_PathCompression uf = new UnionFindFinalAttempt_PathCompression(12);

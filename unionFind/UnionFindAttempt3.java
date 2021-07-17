@@ -2,11 +2,12 @@ package unionFind;
 
 public class UnionFindAttempt3 {
 
-	private static int[] connections = null;
-	private static int[] sizeOfTree = null;
+	private int[] connections = null;
+	private int[] sizeOfTree = null;
 	
 	public static void main(String[] args) {
 		UnionFindAttempt3 uf = new UnionFindAttempt3(12);
+		
 		uf.union(4,3);
 		uf.union(3,8);
 		uf.union(6,5);
